@@ -1,0 +1,30 @@
+{
+    "name": "alvarojarl/aprendendo",
+    "description": "projetando para aprender",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alvaro Luis",
+            "email": "alvaro.13455@gmail.com"
+
+
+        }
+    ],
+    "config": {
+      "vendor-dir": "vendor"
+    },
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Config.php"
+      ]
+    },
+    "require": {
+        "twbs/bootstrap": "^4.4",
+        "coffeecode/datalayer": "^1.1",
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
