@@ -14,3 +14,12 @@ define("DATA_LAYER_CONFIG", [
         PDO::ATTR_CASE => PDO::CASE_NATURAL
     ]
 ]);
+
+define("MAIL",[
+  "host" => "",
+  "port" => "",
+  "user" => "",
+  "password" => "",
+  "from_name" => "name",
+  "from_email" => "exemplo@gmail.com"
+]);
